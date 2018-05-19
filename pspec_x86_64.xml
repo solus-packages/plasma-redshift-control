@@ -1,0 +1,52 @@
+<PISI>
+    <Source>
+        <Name>plasma-redshift-control</Name>
+        <Packager>
+            <Name>Clive Johnston</Name>
+            <Email>clivejo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>desktop.kde</PartOf>
+        <Summary xml:lang="en">Control redshift from your Plasma Desktop</Summary>
+        <Description xml:lang="en">Plasma 5 applet for controlling redshift (screen temperature modifying). It allowes basic redshift settings and fast manual temperature control by mouse wheel.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>plasma-redshift-control</Name>
+        <Summary xml:lang="en">Control redshift from your Plasma Desktop</Summary>
+        <Description xml:lang="en">Plasma 5 applet for controlling redshift (screen temperature modifying). It allowes basic redshift settings and fast manual temperature control by mouse wheel.
+</Description>
+        <PartOf>desktop.kde</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/kservices5/plasma-applet-org.kde.redshiftControl.desktop</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/org.kde.redshiftControl.appdata.xml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/config/config.qml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/config/config.qmlc</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/config/main.xml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/fonts/fontawesome-webfont-4.3.0.ttf</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/CompactRepresentation.qml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/CompactRepresentation.qmlc</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/config/ConfigAdvanced.qml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/config/ConfigAdvanced.qmlc</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/config/ConfigGeneral.qml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/config/ConfigGeneral.qmlc</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/config/IconPicker.qml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/config/IconPicker.qmlc</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/main.qml</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/main.qmlc</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/metadata.desktop</Path>
+            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/metadata.json</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-05-19</Date>
+            <Version>1.0.18</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Clive Johnston</Name>
+            <Email>clivejo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
