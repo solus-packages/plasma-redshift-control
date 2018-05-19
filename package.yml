@@ -1,6 +1,6 @@
 name       : plasma-redshift-control
 version    : 1.0.18
-release    : 1
+release    : 2
 source     :
     - https://github.com/kotelnik/plasma-applet-redshift-control/archive/v1.0.18.tar.gz : 9f6de46653d9467e155ab857c84ef02021509f96afe0a4a7db9555f2a1da8d46
 license    : GPL-2.0-or-later
@@ -13,7 +13,7 @@ builddeps  :
     - pkgconfig(Qt5Core)
     - extra-cmake-modules
     - plasma-framework-devel
-rundeps    : |
+rundeps    :
     - redshift
 setup      : |
     %cmake

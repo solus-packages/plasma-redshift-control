@@ -2,8 +2,8 @@
     <Source>
         <Name>plasma-redshift-control</Name>
         <Packager>
-            <Name>Clive Johnston</Name>
-            <Email>clivejo@protonmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.kde</PartOf>
@@ -41,12 +41,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2018-05-19</Date>
             <Version>1.0.18</Version>
             <Comment>Packaging update</Comment>
-            <Name>Clive Johnston</Name>
-            <Email>clivejo@protonmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
