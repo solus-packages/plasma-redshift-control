@@ -2,15 +2,15 @@
     <Source>
         <Name>plasma-redshift-control</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.kde</PartOf>
         <Summary xml:lang="en">Control redshift from your Plasma Desktop</Summary>
         <Description xml:lang="en">Plasma 5 applet for controlling redshift (screen temperature modifying). It allowes basic redshift settings and fast manual temperature control by mouse wheel.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>plasma-redshift-control</Name>
@@ -20,7 +20,16 @@
         <PartOf>desktop.kde</PartOf>
         <Files>
             <Path fileType="data">/usr/share/kservices5/plasma-applet-org.kde.redshiftControl.desktop</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo</Path>
             <Path fileType="data">/usr/share/metainfo/org.kde.redshiftControl.appdata.xml</Path>
             <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/config/config.qml</Path>
             <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/config/config.qmlc</Path>
@@ -41,12 +50,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-19</Date>
+        <Update release="3">
+            <Date>2019-06-27</Date>
             <Version>1.0.18</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
